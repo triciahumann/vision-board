@@ -92,6 +92,13 @@ body {
     background-color: #e8e8e8;
 }
 
+.container {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #vision-board {
     background-image: url(../img/background.png);
     font-family: 'montserrat', sans-serif;
@@ -101,6 +108,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    max-width: 1200px;
 }
 
 .block {
@@ -139,7 +147,7 @@ strong {
     text-transform: capitalize;
 }
 
-/* GROW box */
+/* Grow box */
 .grow {
     display: flex;
     flex-flow: row wrap;
@@ -183,15 +191,24 @@ strong {
     width: 80%;
 }
 
+.freelance img {
+    padding-top: 15px;
+}
+
 /* Vision board box */
-.vision-board-block-contents {
+.vision-board-block {
     background-color: #3b3b3b;
     color: white;
+    display: flex;
+    justify-content: center;
+}
+.vision-board-block-contents {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     padding: 30px 0;
+    width: 80%;
 }
 
 .vision-board-block-contents span {
@@ -218,7 +235,11 @@ strong {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    width: 80%;
+    width: 60%;
+}
+
+.travel img {
+    padding-bottom: 15px;
 }
 
 /* Dog box */
