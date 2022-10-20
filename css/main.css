@@ -204,6 +204,31 @@ strong {
     text-align: center;
 }
 
+/* Travel box */
+.text-right {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+} 
+
+.text-right-contents {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+/* Dog box */
+.dog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mind and body box */
 
 
 
