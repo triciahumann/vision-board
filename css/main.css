@@ -91,9 +91,6 @@ body {
     background-color: #e8e8e8;
 }
 
-.container {
-}
-
 #vision-board {
     background-image: url(../img/background.png);
     font-family: 'montserrat', sans-serif;
@@ -137,6 +134,10 @@ body {
 .dark-bg span {
     font-family: 'permanent marker', cursive;
     font-size: 30px;
+}
+
+p {
+    margin: 0;
 }
 
 .dark-bg p {
